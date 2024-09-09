@@ -7,8 +7,9 @@ terraform {
       version = "3.5.1"
     }
   }
-}
+} 
 
+ 
 provider "random" {}
 
 output "uuid" {
