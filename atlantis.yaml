@@ -1,0 +1,8 @@
+version: 3
+projects:
+- dir: environments/dev
+  workspace: dev
+  apply_requirements: [undiverged]
+  autoplan:
+    when_modified: ["*.tf", "../../modules/**/*", ".terraform.lock.hcl"]
+    enabled: true
