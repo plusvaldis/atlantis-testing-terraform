@@ -15,6 +15,7 @@ terraform {
     key    = var.secret_key_bucket_S3
     access_key = var.access_key_bucket
     secret_key = var.secret_key_bucket
+    
 
     skip_region_validation      = true
     skip_credentials_validation = true
